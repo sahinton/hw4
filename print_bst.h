@@ -130,6 +130,8 @@ void BinarySearchTree<Key, Value>::printRoot (Node<Key, Value>* root) const
     std::map<Key, uint8_t> valuePlaceholders;
 
     uint8_t nextPlaceHolderVal = 1;
+
+
     for(typename BinarySearchTree<Key, Value>::iterator treeIter = this->begin(); treeIter != this->end(); ++treeIter)
     {
 
